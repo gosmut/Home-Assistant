@@ -13,6 +13,8 @@
     Incluye 4 Headers que necesitan ser soldados a la PCB
     Tamaño: 15.98 x 16.1 x 2.7mm
     Peso: 1.11g
+
+    
     AHT20
     
     Rango de medición (humedad): 0 – 100 % de humedad relativa
@@ -21,6 +23,8 @@
     Precisión de temperatura:  ± 0.3 C
     Resolución temperatura: 0.01 °C
     Humedad: 0.024 % HR
+
+    
     BMP280
     
     Rango de Presión: 300 a 1100 hPa.
@@ -31,7 +35,7 @@
     Frecuencia de Muestreo: 157 Hz (máx.)
 
     
-   [Pinout](/img/AR3820-AHT20-BMP280-Pinout.jpg)
+   ![Pinout](/img/AR3820-AHT20-BMP280-Pinout.jpg)
     
     
    [ESPHome](https://esphome.io/components/sensor/bmp280.html?highlight=bmp280)
