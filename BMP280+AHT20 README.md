@@ -38,8 +38,8 @@
    ![Pinout](/img/AR3820-AHT20-BMP280-Pinout.jpg)
     
     
-   [ESPHome](https://esphome.io/components/sensor/bmp280.html?highlight=bmp280)
-   [ESPHome](https://esphome.io/components/sensor/aht10.html?highlight=aht10)
+   [ESPHome BMP280](https://esphome.io/components/sensor/bmp280.html?highlight=bmp280)
+   [ESPHome AHT10](https://esphome.io/components/sensor/aht10.html?highlight=aht10)
 
  ###DATASHEET
    [BMP280](/datasheet/BST-BMP280-DS001-11.pdf)
