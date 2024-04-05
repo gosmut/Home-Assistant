@@ -1,0 +1,28 @@
+
+i2c:
+  sda: 15
+  scl: 0
+  scan: true
+  id: bus_a
+#  frequency: 200kHz 
+
+sensor:
+  - platform: bmp280
+    address: 0x77
+    update_interval: 60s
+    temperature:
+      name: "BMP temp"
+      oversampling: 2x
+    pressure:
+      name: "BMP Pressure"
+
+  - platform: aht10
+    variant: AHT20
+    address: 0x38
+    update_interval: 60s
+    temperature:
+      name: "AHT20 temp"
+      id: aht20_temp
+    humidity:
+      name: "AHT20 humidity"
+      id: aht20_humidity
