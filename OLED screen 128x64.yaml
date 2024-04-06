@@ -1,0 +1,12 @@
+# Example configuration entry
+i2c:
+  sda: D1
+  scl: D2
+
+display:
+  - platform: ssd1306_i2c
+    model: "SSD1306 128x64"
+    reset_pin: D0
+    address: 0x3C
+    lambda: |-
+      it.print(0, 0, id(font), "Hello World!");

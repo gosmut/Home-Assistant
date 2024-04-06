@@ -1,4 +1,6 @@
 
+#probar con pines 34 a 39 (solo entrada)
+
 i2c:
   sda: 15
   scl: 0
